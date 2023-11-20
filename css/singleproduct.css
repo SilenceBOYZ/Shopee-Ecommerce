@@ -1,0 +1,164 @@
+.product-wrap {
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #dddddd;
+  padding-top: 20rem;
+  padding-bottom: 5rem;
+  display: flex;
+ 
+}
+
+.product-img {
+  width: 35rem;
+  height: 35rem;
+}
+
+.single-product {
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-around; */
+  width: 130rem;
+  /* height: 100vh; */
+  background-color: #fff;
+  padding: 2rem 2rem;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.single-product-img img {
+  width: 100%;
+  height: 45rem;
+  border: 5px solid black;
+}
+
+.single-product-title {
+  width: 80rem;
+  /* height: 55rem; */
+  overflow: hidden;
+}
+
+.product-title {
+  display: inline-block;
+  width: 78rem;
+  height: 4.8rem;
+  overflow: hidden;
+}
+
+.like-stamp {
+  background-color: #EE4D2D;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.4rem;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 0.4rem;
+  margin-right: 1.5rem;
+}
+
+.value-feedback {
+  font-size: 1.6rem;
+  color: #EE4D2D;
+  border-bottom: 1px solid #EE4D2D;
+}
+
+.feed-back {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem
+}
+
+
+.icon-wrap {
+  display: flex;
+}
+.star-icon {
+  width: 2rem;
+  height: 2rem;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%
+  , 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background-color: #EE4D2D;
+}
+.comment {
+  font-size: 1.6rem;
+  padding: 0 2rem;
+  /* border-right: 1px solid rgb(148, 146, 146); */
+  border-left: 1px solid rgb(148, 146, 146);
+}
+
+.sold-sg {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.report-link {
+  font-size: 1.6rem;
+  margin-left: auto;
+}
+
+.sgproduct-price{
+  width: 100%;
+  /* height: 15rem; */
+  /* background-color: aliceblue; */
+  padding: 1.4rem 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.sg-price {
+  font-size: 1.6rem;
+}
+
+.sg-price-final {
+  font-size: 3.2rem;
+  color: #EE4D2D;
+  font-weight: 600;
+}
+
+.icon-sale {
+  display: inline;
+  height: 2.6rem;
+  /* background: none; */
+}
+
+.purchase {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.input[type="number"] {
+  padding-left: 1.5rem;
+}
+
+.buy-item {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-buy {
+  border: none;
+  font-size: 2rem;
+  padding: 1.4rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #EE4D2D;
+  color: #fff;
+}
+
+.btn-add {
+  border: 1px solid #EE4D2D;
+  padding: 1.4rem 4rem;
+  background-color: #FFF5F1;
+  color: #EE4D2D;
+}
+
+.fix-sales {
+  padding-bottom: 6rem;
+}
+
+input#input-soluong[type="text"]{
+    width: 5rem;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 600;
+}

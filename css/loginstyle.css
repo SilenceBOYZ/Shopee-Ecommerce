@@ -1,0 +1,168 @@
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  width: 100%;
+  background-color: #f94e30;
+}
+
+.wrap-header {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-title{
+  text-align: center;
+}
+
+.login-title h2 {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.login-title p {
+  font-size: 1.8rem;
+  color: #fff;
+  font-style: italic;
+}
+
+.login-content {
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: aquamarine; */
+  padding: 15rem 0;
+}
+
+.container-login {
+  height: 60rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem 0.3rem rgba(0, 0, 0, 0.03);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+/* Form login */
+.form-login {
+  width: 40rem;
+  height: 55rem;
+  background-color: #f16951f8;
+  align-self: center;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+.form-login h2{
+  font-size: 2.4rem;
+  color: #fff;
+  padding-top: 1.8rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.login-field {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+
+.login-field input{
+  width: 85%;
+  height: 4rem;
+}
+
+.login-field input[placeholder]{
+  padding-left: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.login-field input[type="submit"]{
+  background-color: #f94e30;
+  border: none;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.straight-line {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.straight-line hr{
+  width: 10rem;
+  height: 1px;
+}
+
+.straight-line span{
+  margin: 0 1rem;
+  font-size: 1.6rem;
+}
+.social-link {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.social-media {
+  display: flex;
+  color: #000;
+  font-size: 1.6rem;
+  text-decoration: none;
+  width: 15rem;
+  text-align: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  background-color: #fff;
+}
+
+.icofont-css {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(22, 116, 192);
+}
+
+.icofont-google-plus {
+  font-size: 1.6rem;
+}
+
+.link-signup {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.link-signup:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.form-login h3{
+  text-align: center;
+  color: #eedddd;
+}
+
+.notice {
+  display: flex;
+  font-size: 1.8rem;
+  width: 98%;
+  background-color: #e7e6e6;
+  height: 6rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}

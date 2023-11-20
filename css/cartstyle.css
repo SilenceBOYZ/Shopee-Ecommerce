@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html {
+  font-size: 62.25%;
+}
+body {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.main-page {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding-top: 4rem;
+}
+/* Tên giỏ hàng */
+.cart-header {
+  width: 100%;
+  /* height: 15rem; */
+  background-color: #fff;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 1.5rem;
+}
+
+.container-cart {
+  margin: 0 auto;
+  max-width: 125rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  width: 40%;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.logo-title img {
+  width: 20rem;
+  /* height: 25rem; */
+  vertical-align: center;
+}
+
+.line-cut {
+  display: block;
+  border-right: 2px solid #f53d2d;
+  height: 2rem;
+}
+
+.title {
+  color: #f53d2d;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+/* Thanh search su dung lai class css style */
+/* Và chỉnh lại một xiu */
+.input-search-cart {
+  margin-bottom: 0;
+  border: 2px solid #f53d2d;
+  width: 50rem;
+}
+
+.btn-search-cart {
+  top: 5.8rem;
+  right: 53.5rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+/* Làm giỏ hàng */
+.home-page-title {
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+.home-page-title a {
+  color: #f53d2d;
+}
+
+.cart-order {
+  /* height: 50rem; */
+  border: 0.5px solid #dddddd;
+  background-color: #fff;
+  display: block;
+}
+
+.cart-detail {
+  width: 120rem;
+  margin: 0 auto;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #d6cccc;
+  font-weight: 600;
+}
+
+tr:last-child {
+  background-color: #fdc3c3;
+}
+
+tr:nth-child(even) {
+  background-color: #f0e0e0;
+}
+
+tr th {
+  text-align: center;
+  font-size: 1.6rem;
+  height: 5rem;
+  background-color: #fd8787;
+}
+
+tr td {
+  text-align: center;
+  font-size: 1.6rem;
+  height: 5rem;
+}
+
+.stt-cart {
+  width: 5rem;
+}
+.product-title-cart {
+  width: 40rem;
+}
+.picture-image-cart,
+.picture-image-cart,
+.product-price-cart,
+.volume-cart,
+.purchase-cart,
+.remove-btn-cart {
+  width: 15rem;
+}
+
+.image-cart-product {
+  margin: 1.5rem 0;
+  width: 12rem;
+  height: 12rem;
+  background-color: #dddddd;
+}
+
+input[name="soluong"] {
+  width: 5rem;
+  text-align: center;
+}
+
+table {
+  margin-bottom: 1.5rem;
+}
+
+.sumbit-btn-cart {
+  float: right;
+  border: none;
+  padding: 0.8rem 2.8rem;
+  font-size: 1.8rem;
+  background-color: #6b0a0a;
+  color: #fff;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.cut-line {
+  width: 100%;
+  height: 1px;
+  background-color: #f53d2d;
+  margin-top: 7.5rem;
+}
+
+.orderCart-detail {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  gap: 2rem;
+}
+.orderCart-detail div {
+  width: 75rem;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.orderCart-detail label {
+  font-size: 2.4rem;
+  font-weight: 600;
+  width: 15rem;
+}
+
+.orderCart-detail input[type="text"] {
+  padding-left: 1.5rem;
+  height: 3rem;
+  width: 35rem;
+  font-size: 1.8rem;
+}
+
+.orderCart-detail textarea {
+  width: 30rem;
+  height: 10rem;
+}
+
+.btn-order {
+  float: none !important;
+}
+
+.notify-msg {
+  width: 50rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.notify-msg a{
+  color: red;
+}
